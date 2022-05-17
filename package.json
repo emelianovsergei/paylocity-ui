@@ -1,0 +1,13 @@
+{
+  "name": "paylocity-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --spec cypress/integration/*.spec.js"
+  },
+  "author": "Sergei Emelianov",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
